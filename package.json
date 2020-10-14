@@ -1,0 +1,27 @@
+{
+  "name": "amazona",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kansank/amazona-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kansank/amazona-app/issues"
+  },
+  "homepage": "https://github.com/Kansank/amazona-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
+}
