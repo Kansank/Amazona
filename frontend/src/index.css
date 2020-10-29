@@ -118,7 +118,13 @@ a.brand{
   align-items: center;
 }
 .row.center{
+  /* justify-content: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 1.5rem ;
   justify-content: center;
+  align-items: center;
+  
 }
 .row.top{
   align-items: flex-start;
